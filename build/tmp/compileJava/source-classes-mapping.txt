@@ -1,0 +1,40 @@
+com/codegym/controller/CpuController.java
+ com.codegym.controller.CpuController
+com/codegym/repository/ICpuRepository.java
+ com.codegym.repository.ICpuRepository
+com/codegym/service/producer/ProducerService.java
+ com.codegym.service.producer.ProducerService
+com/codegym/service/cpu/CpuService.java
+ com.codegym.service.cpu.CpuService
+com/codegym/configuration/AppConfig.java
+ com.codegym.configuration.AppConfig
+com/codegym/service/producer/IProducerService.java
+ com.codegym.service.producer.IProducerService
+com/codegym/formatter/CpuFormatter.java
+ com.codegym.formatter.CpuFormatter
+com/codegym/formatter/ProducerFormatter.java
+ com.codegym.formatter.ProducerFormatter
+com/codegym/repository/IProducerRepository.java
+ com.codegym.repository.IProducerRepository
+com/codegym/model/Cpu.java
+ com.codegym.model.Cpu
+com/codegym/controller/ProducerController.java
+ com.codegym.controller.ProducerController
+com/codegym/model/Producer.java
+ com.codegym.model.Producer
+com/codegym/service/cpu/ICpuService.java
+ com.codegym.service.cpu.ICpuService
+com/codegym/service/IGeneralService.java
+ com.codegym.service.IGeneralService
+com/codegym/service/laptop/ILaptopService.java
+ com.codegym.service.laptop.ILaptopService
+com/codegym/configuration/AppInit.java
+ com.codegym.configuration.AppInit
+com/codegym/repository/ILaptopRepository.java
+ com.codegym.repository.ILaptopRepository
+com/codegym/model/Laptop.java
+ com.codegym.model.Laptop
+com/codegym/service/laptop/LaptopService.java
+ com.codegym.service.laptop.LaptopService
+com/codegym/controller/LaptopController.java
+ com.codegym.controller.LaptopController

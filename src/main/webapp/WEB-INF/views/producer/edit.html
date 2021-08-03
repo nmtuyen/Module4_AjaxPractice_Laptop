@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" th:object="${producer}" th:action="@{/producers/edit}">
+    <input type="hidden" th:field="${producer.id}">
+    <input type="text" th:field="${producer.name}">
+    <input type="text" th:field="${producer.nation}">
+    <button type="submit">Update</button>
+</form>
+</body>
+</html>

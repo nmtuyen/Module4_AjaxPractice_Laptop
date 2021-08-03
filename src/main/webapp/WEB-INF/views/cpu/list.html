@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <caption>List CPU</caption>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Edit</th>
+    </tr>
+    <tr th:each = "cpu:${cpus}">
+        <td th:text="${cpu.id}"></td>
+        <td th:text="${cpu.name}"></td>
+        <td><a th:href="@{cpus/{id}/edit(id=${cpu.id})}">edit</a></td>
+    </tr>
+</table>
+</body>
+</html>

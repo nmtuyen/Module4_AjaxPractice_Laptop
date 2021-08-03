@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <caption>List Producer</caption>
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Nation</th>
+        <th>Edit</th>
+    </tr>
+    <tr th:each="producer:${producers}">
+        <td th:text="${producer.id}"></td>
+        <td th:text="${producer.name}"></td>
+        <td th:text="${producer.nation}"></td>
+        <td><a th:href="@{producers/{id}/edit(id=${producer.id})}">edit</a></td>
+    </tr>
+</table>
+</body>
+</html>
